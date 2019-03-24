@@ -1,0 +1,4 @@
+org/lordofthejars/games/game/api/FreeMarker.class
+org/lordofthejars/games/game/api/Game.class
+org/lordofthejars/games/game/api/FlywayScripts.class
+org/lordofthejars/games/game/api/GameService.class

@@ -1,0 +1,11 @@
+org/lordofthejars/games/game/GameResource$1.class
+org/lordofthejars/games/game/SchedulerProducer.class
+org/lordofthejars/games/game/GameApplication.class
+org/lordofthejars/games/game/GameResource$2.class
+org/lordofthejars/games/game/FlywayIntegrator.class
+org/lordofthejars/games/game/TemplateParameters.class
+org/lordofthejars/games/game/FlywayProducer.class
+org/lordofthejars/games/game/GameInfo.class
+org/lordofthejars/games/game/GameResource.class
+org/lordofthejars/games/game/GameServiceImpl.class
+org/lordofthejars/games/game/TemplateProducer.class
