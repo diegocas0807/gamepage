@@ -54,9 +54,10 @@ pipeline {
             }
             steps {
                 sh """
-          docker build -t ${IMAGE} .
-          docker tag ${IMAGE} ${IMAGE}:${VERSION}
-          docker run -d --rm -t -p 8085:8080 ${IMAGE}
+            docker kill ${IMAGE}
+            docker build -t ${IMAGE} .
+            docker tag ${IMAGE} ${IMAGE}:${VERSION}
+            docker run -d --rm -t -p 8085:8080 ${IMAGE}
         """
             }
         }
