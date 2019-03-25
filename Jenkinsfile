@@ -38,26 +38,21 @@ pipeline {
 
         stage('Quality Analysis') {
             parallel {
-                // run Sonar Scan and Integration tests in parallel. This syntax requires Declarative Pipeline 1.2 or higher
                 stage ('Integration Test') {
-                    agent any  //run this stage on any available agent
-                    steps {
-                        echo 'Run integration tests here...'
-                        sh 'mvn verify'
-                    }
+                    //agent any
+                    //steps {
+                       // echo 'Run integration tests here...'
+                      //  sh 'mvn verify'
+                    //}
                 }
             }
         }
 
         stage('Build and Publish Image') {
             when {
-                branch 'master'  //only run these steps on the master branch
+                branch 'master'
             }
             steps {
-                /*
-                 * Multiline strings can be used for larger scripts. It is also possible to put scripts in your shared library
-                 * and load them with 'libaryResource'
-                 */
                 sh """
           docker build -t ${IMAGE} .
           docker tag ${IMAGE} ${IMAGE}:${VERSION}

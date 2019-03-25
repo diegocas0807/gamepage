@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f774829-1301-4f26-b223-a4cbc2b20e32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/api/target/details-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/details/api/target/details-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/details/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/impl/target/details-impl-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/details/impl/target/details-impl-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/details/impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/api/target/gamepage-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/api/target/gamepage-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/gamepage-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/gamepage-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/details-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/details-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/details-impl-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/details-impl-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/gamepage-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/gamepage-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/reviews-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/reviews-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/reviews-impl-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/games/WEB-INF/lib/reviews-impl-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/api/target/reviews-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/api/target/reviews-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/impl/target/reviews-impl-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/impl/target/reviews-impl-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/api/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/details/api/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/impl/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/details/impl/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/api/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/api/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/TEST-org.lordofthejars.games.game.testIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/TEST-org.lordofthejars.games.game.testIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/junitreports/TEST-org.lordofthejars.games.game.testIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/junitreports/TEST-org.lordofthejars.games.game.testIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/org.lordofthejars.games.game.testIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/org.lordofthejars.games.game.testIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/api/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/api/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/impl/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/impl/target/pmd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/games.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/games.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gamepage/api/target/" />
@@ -93,7 +89,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="14" />
+          <entry key="Groovy" value="39" />
           <entry key="JAVA" value="15" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -135,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1304">
+            <state relative-caret-position="1785">
               <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
             </state>
           </provider>
@@ -153,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+            <state relative-caret-position="392">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -415,12 +411,12 @@
       <workItem from="1552591532035" duration="324000" />
       <workItem from="1553020746456" duration="6583000" />
       <workItem from="1553469278854" duration="1458000" />
-      <workItem from="1553471544320" duration="1360000" />
+      <workItem from="1553471544320" duration="1867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15280000" />
+    <option name="totallyTimeSpent" value="15787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -582,6 +578,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -589,17 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1304">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        <state relative-caret-position="392">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
