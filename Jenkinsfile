@@ -56,7 +56,7 @@ pipeline {
                 sh """
           docker build -t ${IMAGE} .
           docker tag ${IMAGE} ${IMAGE}:${VERSION}
-          docker run --name ${IMAGE}
+          docker run ${IMAGE}
         """
             }
         }
