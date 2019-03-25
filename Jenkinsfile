@@ -56,7 +56,7 @@ pipeline {
                 sh """
           docker build -t ${IMAGE} .
           docker tag ${IMAGE} ${IMAGE}:${VERSION}
-          docker run ${IMAGE} -p 80:80
+          docker run -p 8080:8083 ${IMAGE}
         """
             }
         }
