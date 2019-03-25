@@ -36,17 +36,17 @@ pipeline {
             }
         }
 
-        //stage('Quality Analysis') {
-          //  parallel {
-            //    stage ('Integration Test') {
-                    //agent any
-              //      steps {
-                //       echo 'Run integration tests here...'
-                      //  sh 'mvn verify'
-                  //  }
-            //    }
-          //  }
-        //}
+        stage('Quality Analysis') {
+            parallel {
+              stage ('Integration Test') {
+                    agent any
+                    steps {
+                       echo 'Run integration tests here...'
+                        sh 'mvn verify'
+                    }
+                }
+            }
+        }
 
         stage('Build and Publish Image') {
             when {
