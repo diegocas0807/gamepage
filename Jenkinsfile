@@ -40,10 +40,10 @@ pipeline {
             parallel {
                 stage ('Integration Test') {
                     //agent any
-                    //steps {
-                       // echo 'Run integration tests here...'
+                    steps {
+                       echo 'Run integration tests here...'
                       //  sh 'mvn verify'
-                    //}
+                    }
                 }
             }
         }

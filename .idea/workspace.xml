@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f774829-1301-4f26-b223-a4cbc2b20e32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/api/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/details/api/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/impl/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/details/impl/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/api/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/api/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/Surefire suite/Surefire test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/TEST-org.lordofthejars.games.game.testIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/TEST-org.lordofthejars.games.game.testIT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/junitreports/TEST-org.lordofthejars.games.game.testIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/junitreports/TEST-org.lordofthejars.games.game.testIT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/old/Surefire suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/org.lordofthejars.games.game.testIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/org.lordofthejars.games.game.testIT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/failsafe-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/api/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/api/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/impl/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/impl/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/games.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/games.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gamepage/api/target/" />
     <ignored path="$PROJECT_DIR$/reviews/impl/target/" />
@@ -149,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="362">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -411,18 +395,18 @@
       <workItem from="1552591532035" duration="324000" />
       <workItem from="1553020746456" duration="6583000" />
       <workItem from="1553469278854" duration="1458000" />
-      <workItem from="1553471544320" duration="1867000" />
+      <workItem from="1553471544320" duration="1943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15787000" />
+    <option name="totallyTimeSpent" value="15863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,7 +422,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="433" y="355" width="813" height="282" id="Terminal" order="7" sideWeight="0.4945055" visible="true" weight="0.32982457" />
+      <window_info active="true" anchor="bottom" x="433" y="355" width="813" height="282" id="Terminal" order="7" sideWeight="0.4945055" visible="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50549453" side_tool="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -594,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="362">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
         </state>
       </provider>
     </entry>
