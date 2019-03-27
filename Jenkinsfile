@@ -37,8 +37,8 @@ pipeline {
         }
 
         stage('Unit Tests') {
+            agent any
             steps {
-                agent any
                 echo 'Run unit tests...'
                 sh 'mvn clean test'
             }
@@ -51,7 +51,6 @@ pipeline {
                     steps {
                         echo 'Run integration tests...'
                         sh 'mvn verify'
-                        sh 'mvn clean package'
                     }
                 }
             }
