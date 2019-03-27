@@ -57,6 +57,7 @@ pipeline {
             
             docker build -t ${IMAGE} .
             docker tag ${IMAGE} ${IMAGE}:${VERSION}
+            docker kill \$(docker ps -a -q)
             docker run -d --rm -t -p 8085:8080 ${IMAGE}
         """
             }
