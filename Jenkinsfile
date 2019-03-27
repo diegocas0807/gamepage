@@ -54,7 +54,6 @@ pipeline {
             }
             steps {
                 sh """
-            
             docker build -t ${IMAGE} .
             docker tag ${IMAGE} ${IMAGE}:${VERSION}
             docker kill \$(docker ps -a -q)
