@@ -82,9 +82,14 @@ pipeline {
     }
     post {
         failure {
-            mail to: 'dch.ingeniero@gmail.com',
+            mail to: 'jenkinsmdas@gmail.com',
                     subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
                     body: "Something was wrong!: ${env.BUILD_URL}"
+        }
+        success {
+            mail to: 'jenkinsmdas@gmail.com',
+                    subject: "Pipeline Success!!!",
+                    body: "THANK YOU.."
         }
     }
 }
