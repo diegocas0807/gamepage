@@ -36,19 +36,28 @@ pipeline {
             }
         }
 
+        stage('Unit Tests') {
+            steps {
+                agent any
+                echo 'Run unit tests...'
+                sh 'mvn clean test'
+            }
+        }
+
         stage('Quality Analysis') {
             parallel {
               stage ('Integration Test') {
                     agent any
                     steps {
-                       echo 'Run integration tests here...'
+                        echo 'Run integration tests...'
                         sh 'mvn verify'
+                        sh 'mvn clean package'
                     }
                 }
             }
         }
 
-        stage('Build and Publish Image') {
+        stage('Build Image') {
             when {
                 branch 'master'
             }
@@ -57,16 +66,26 @@ pipeline {
             docker build -t ${IMAGE} .
             docker tag ${IMAGE} ${IMAGE}:${VERSION}
             docker kill \$(docker ps -a -q)
-            docker run -d --rm -t -p 8085:8080 ${IMAGE}
+            
+        """
+            }
+        }
+        stage('Publish Image') {
+            when {
+                branch 'master'
+            }
+            steps {
+                sh """
+                    docker run -d --rm -t -p 8085:8080 ${IMAGE} 
         """
             }
         }
     }
     post {
-        always {
+        failure {
             mail to: 'dch.ingeniero@gmail.com',
                     subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
-                    body: "Something is wrong with ${env.BUILD_URL}"
+                    body: "Something was wrong!: ${env.BUILD_URL}"
         }
     }
 }
