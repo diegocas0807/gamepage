@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="36" started-at="2019-03-25T21:34:57 CET" finished-at="2019-03-25T21:34:57 CET">
+  <suite name="Surefire suite" duration-ms="46" started-at="2019-03-28T19:19:52 CET" finished-at="2019-03-28T19:19:52 CET">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="36" started-at="2019-03-25T21:34:57 CET" finished-at="2019-03-25T21:34:57 CET">
+    <test name="Surefire test" duration-ms="46" started-at="2019-03-28T19:19:52 CET" finished-at="2019-03-28T19:19:52 CET">
       <class name="org.lordofthejars.games.game.testIT">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:org.lordofthejars.games.game.testIT@402f32ff]" name="shouldAnswerWithTrue" duration-ms="6" started-at="2019-03-25T21:34:57 CET" finished-at="2019-03-25T21:34:57 CET">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:org.lordofthejars.games.game.testIT@402f32ff]" name="shouldAnswerWithTrue" duration-ms="7" started-at="2019-03-28T19:19:52 CET" finished-at="2019-03-28T19:19:52 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
