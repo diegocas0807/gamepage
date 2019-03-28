@@ -65,8 +65,7 @@ pipeline {
             steps {
                 sh """
             docker login -u $FOO_USR -p $FOO_PSW
-            docker build -t ${IMAGE} .
-            docker tag ${IMAGE} ${IMAGE}:${VERSION}
+            docker build -t diegocas0807/${IMAGE}:${VERSION} .
             docker kill \$(docker ps -a -q)
             
         """
@@ -78,8 +77,8 @@ pipeline {
             }
             steps {
                 sh """
-                    docker run -d --rm -t -p 8085:8080 ${IMAGE} 
-                    docker push $FOO_USR/${IMAGE}:${VERSION}
+                    docker run -d --rm -t -p 8085:8080 diegocas0807/${IMAGE}:${VERSION}
+                    docker push diegocas0807/${IMAGE}:${VERSION}
         """
             }
         }
