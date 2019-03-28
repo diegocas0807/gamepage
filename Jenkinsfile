@@ -14,6 +14,8 @@ pipeline {
     environment {
         IMAGE = readMavenPom().getArtifactId()
         VERSION = readMavenPom().getVersion()
+        registry = "diegocas0807/games-monolith"
+        FOO = credentials("dockerhub")
     }
 
     stages {
@@ -62,6 +64,10 @@ pipeline {
             }
             steps {
                 sh """
+            docker login $FOO_USR/$FOO_PSW
+            sh 'echo "FOO is $FOO"'
+            sh 'echo "FOO_USR is $FOO_USR"'
+            sh 'echo "FOO_PSW is $FOO_PSW"'
             docker build -t ${IMAGE} .
             docker tag ${IMAGE} ${IMAGE}:${VERSION}
             docker kill \$(docker ps -a -q)
@@ -87,7 +93,7 @@ pipeline {
                     body: "Something was wrong!: ${env.BUILD_URL}"
         }
         success {
-            mail to: 'jenkinsmdas@gmail.com',
+            mail to: 'alex.soto@salle.url.edu',
                     subject: "Pipeline Success!!!",
                     body: "THANK YOU.."
         }

@@ -4,8 +4,6 @@
     <list default="true" id="6f774829-1301-4f26-b223-a4cbc2b20e32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/src/main/resources/db/data/V9_0_0_0__Populate_Initial_Data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/src/main/resources/db/data/V9_0_0_0__Populate_Initial_Data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamepage/impl/src/test/java/org/lordofthejars/games/game/testIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamepage/impl/src/test/java/org/lordofthejars/games/game/testIT.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gamepage/api/target/" />
     <ignored path="$PROJECT_DIR$/reviews/impl/target/" />
@@ -81,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="522" />
+          <entry key="Groovy" value="740" />
           <entry key="JAVA" value="34" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="31" />
@@ -122,7 +120,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamepage/impl/src/main/resources/db/data/V9_0_0_0__Populate_Initial_Data.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -149,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="192">
+              <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -211,8 +209,8 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/gamepage/impl/src/main/java/org/lordofthejars/games/game/GameInfo.java" />
         <option value="$PROJECT_DIR$/gamepage/impl/src/test/java/org/lordofthejars/games/game/testIT.java" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/gamepage/impl/src/main/resources/db/data/V9_0_0_0__Populate_Initial_Data.sql" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -396,7 +394,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553797788420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553799477182" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -446,18 +444,18 @@
       <workItem from="1552591532035" duration="324000" />
       <workItem from="1553020746456" duration="6583000" />
       <workItem from="1553469278854" duration="1458000" />
-      <workItem from="1553471544320" duration="14376000" />
+      <workItem from="1553471544320" duration="15406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28296000" />
+    <option name="totallyTimeSpent" value="29326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,7 +471,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="433" y="355" width="813" height="282" id="Terminal" order="7" sideWeight="0.493895" visible="true" weight="0.35438597" />
+      <window_info active="true" anchor="bottom" x="433" y="355" width="813" height="282" id="Terminal" order="7" sideWeight="0.493895" visible="true" weight="0.35438597" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.506105" side_tool="true" weight="0.35438597" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -643,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -657,6 +648,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
         </state>
       </provider>
     </entry>
