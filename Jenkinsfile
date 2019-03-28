@@ -79,7 +79,7 @@ pipeline {
             steps {
                 sh """
                     docker run -d --rm -t -p 8085:8080 ${IMAGE} 
-                    docker push ${IMAGE}:${VERSION}
+                    docker push $FOO_USR/${IMAGE}:${VERSION}
         """
             }
         }
