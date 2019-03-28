@@ -64,7 +64,7 @@ pipeline {
             }
             steps {
                 sh """
-            docker login $FOO_USR/$FOO_PSW
+            docker login -u $FOO_USR -p $FOO_PSW
             sh 'echo "FOO is $FOO"'
             sh 'echo "FOO_USR is $FOO_USR"'
             sh 'echo "FOO_PSW is $FOO_PSW"'
