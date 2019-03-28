@@ -15,7 +15,7 @@ pipeline {
         IMAGE = readMavenPom().getArtifactId()
         VERSION = readMavenPom().getVersion()
         registry = "diegocas0807/games-monolith"
-        FOO = credentials("dockerhub")
+        FOO = credentials("34115442-3e39-4449-9644-07589c9b836a")
     }
 
     stages {
